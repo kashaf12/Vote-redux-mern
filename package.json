@@ -38,7 +38,6 @@
         "coveralls": "npm test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
     },
     "engines": {
-        "npm": "6.4.1",
         "node": ">= 10.9.0"
     }
 }
