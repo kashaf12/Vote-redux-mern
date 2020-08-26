@@ -7,10 +7,10 @@ let appUrl = '';
 if (process.env.NODE_ENV === 'production') {
   //TODO
   proxyUrl = !process.env.PUBLIC_URL
-    ? 'https://answart-voting-app.herokuapp.com'
+    ? 'https://vote-redux.herokuapp.com/'
     : process.env.PUBLIC_URL;
   appUrl = !process.env.PUBLIC_URL
-    ? 'https://answart-voting-app.herokuapp.com'
+    ? 'https://vote-redux.herokuapp.com/'
     : process.env.PUBLIC_URL;
 } else {
   //TODO: secure localhost
