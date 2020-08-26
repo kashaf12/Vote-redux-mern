@@ -5,10 +5,6 @@
 [MIT]: https://github.com/Answart/voting-redux/blob/master/LICENSE.md
 [heroku]: https://answart-voting-app.herokuapp.com/
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/4269260/51295762-ffac9000-19cd-11e9-8507-52efd3e8a138.png" width="550" title="Pollslist Page">
-</p>
-
 # Voting Redux
 
 [![Build Status](https://travis-ci.org/Answart/voting-redux.svg?branch=master)][travis]
@@ -151,16 +147,6 @@ One can also define the variables in the repo on [travi.ci.org](https://travis-c
 COVERALLS_REPO_TOKEN=<TOKENFROMCOVERALLSIO>
 COVERALLS_SERVICE_NAME=travis-ci
 ```
-
-App Screenshots
----------------
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/4269260/51296194-c117d500-19cf-11e9-81a8-c0b15867579f.png" width="350" height="350" title="Home Page">
-  <img src="https://user-images.githubusercontent.com/4269260/51296228-f8868180-19cf-11e9-8fd1-ba959d155792.png" width="350" height="350" alt="Account Page">
-  <img src="https://user-images.githubusercontent.com/4269260/51295802-29fe4d80-19ce-11e9-93b2-e70788d3ddcc.png" width="350" height="350" alt="Vote Popup">
-  <img src="https://user-images.githubusercontent.com/4269260/51295814-413d3b00-19ce-11e9-9e38-089a9254e7af.png" width="350" height="350" alt="Poll Page">
-</p>
 
 NPM Commands
 ------------
