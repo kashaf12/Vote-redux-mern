@@ -5,7 +5,7 @@ module.exports = (uri) => {
 
   mongoose.set('useCreateIndex', true);
 
-  mongoose.connect(uri, { useNewUrlParser: true }, (error) => {
+  mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true }, (error) => {
     if (error) {
       console.error('Please make sure Mongodb is installed and running!');
       throw error;
