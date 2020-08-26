@@ -13,7 +13,6 @@
     },
     "author": {
         "name": "Kashaf Ahmed"
-        
     },
     "main": "index.js",
     "dependencies": {
