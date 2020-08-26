@@ -14,7 +14,7 @@ const server = require('./server');
 //   });
 // });
 
-server.listen(server.get('port'), server.get('host'), error => {
+server.listen(process.env.SERVER_PORT, process.env.HOST, error => {
   if (error) {
     console.error('server.listen encountered an error:', error);
     if (error.syscall !== 'listen') {
