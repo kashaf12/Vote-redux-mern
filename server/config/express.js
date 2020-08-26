@@ -19,7 +19,7 @@ module.exports = (app, ENV_PRODUCTION) => {
     host = (!process.env.HOST)
       ? (`${protocol}localhost` || `${protocol}127.0.0.1`)
       : process.env.HOST;
-    proxyPort = (process.env.SERVER_PORT || '8080');
+    proxyPort = (process.env.PORT || '8080');
     urlPort = '3000';
   }
 

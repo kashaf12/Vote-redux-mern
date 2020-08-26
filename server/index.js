@@ -14,13 +14,13 @@ const server = require('./server');
 //   });
 // });
 
-server.listen(process.env.SERVER_PORT, process.env.HOST, error => {
+server.listen(server.get('port'), server.get('host'), error => {
   if (error) {
     console.error('server.listen encountered an error:', error);
     if (error.syscall !== 'listen') {
       throw error;
     }
-    const port = process.env.PORT;
+    const port = server.get('port');
     var bind = typeof port === 'string'
       ? 'Pipe ' + port
       : 'Port ' + port;
